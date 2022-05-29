@@ -1,0 +1,55 @@
+/* footer css start here */
+
+footer {
+    grid-area: footer;
+    padding: 10px;
+    margin: 5px;
+    height: 200px;
+    border: 2px solid rgb(4, 4, 52);
+    border-radius: 10px;
+    /* background-color: whitesmoke; */
+    background: linear-gradient(to right, orange, white, green);
+    /* margin-top: 2px; */
+    /* text-transform:capitalize; */
+  }
+  
+  .social-media {
+    position: relative;
+  }
+  
+  .social-media .fa {
+    font-size: 30px;
+    text-decoration: none;
+    padding: 2px;
+    margin: 12px;
+  }
+  
+  .social-media .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-instagram {
+    color: rgb(244, 66, 95);
+  }
+  
+  .fa-github {
+    color: black;
+  }
+  
+  .fa-twitter {
+    color: #2f9df0;
+  }
+  
+  .fa-linkedin {
+    color: #007bb5;
+  }
+  
+  .fa-facebook {
+    color: #214fb1;
+  }
+  
+  .fa-youtube {
+    color: rgb(236, 24, 24);
+  }
+  
+  /* footer css end here */

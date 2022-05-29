@@ -1,0 +1,2591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="This is the Youtube Clone Website that is Same like as YouTube.com " />
+  <meta name="keywords" content="Youtube, Youtube.com, youtube video, youtube music" />
+  <meta name="author" content="Ritu Kumar(Rupak Rajput)" />
+  <meta name="robots" content="index, follow" />
+  <meta name="rating" content="genral" />
+  <meta name="distribution" content="global" />
+  <link rel="conanical" href="index.html" />
+  <meta property="og:type" content="website" />
+
+  <title>YouTube (RRR"s)</title>
+  <link rel="shortcut icon" href="youtube-favicon.png" type="image/x-icon" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet" />
+  <link rel="stylesheet" href="youtube.css" />
+  <link rel="stylesheet" href="header.css" />
+  <link rel="stylesheet" href="nav.css" />
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="footer.css" />
+</head>
+
+<body>
+  <header>
+    <div id="load">
+      <div id="loading"></div>
+    </div>
+
+    <div class="left-header">
+      <span class="material-icons-outlined menu">menu</span>
+      <a href="https://youtube.com">
+        <img src="https://cdn.mos.cms.futurecdn.net/8gzcr6RpGStvZFA2qRt4v6.jpg" alt="Youtube logo" />
+        <sup>IN</sup>
+        <!-- <img src="youtube-favicon.png" alt="youtube logo">
+      <span>YOUTUBE<sup> IN</sup></span> -->
+      </a>
+    </div>
+
+    <div class="mid-header">
+      <form action="#">
+        <input type="input" placeholder="Search" />
+        <span class="material-icons-outlined close">close</span>
+        <button><span class="material-icons-outlined">search</span></button>
+      </form>
+      <span class="material-icons-outlined mic">mic</span>
+    </div>
+
+    <div class="right-header">
+      <span class="material-icons-outlined">video_call</span>
+      <span class="material-icons-outlined">apps</span>
+      <span class="material-icons-outlined">notifications</span>
+      <!-- <span class="material-icons">account_circle</span> -->
+      <img src="https://lh3.googleusercontent.com/ogw/ADea4I73vpkXKGTVY2m9W3RhnPXpT9ALJrRQkOOW2R8tjg=s32-c-mo"
+        alt="account" />
+    </div>
+  </header>
+
+  <nav>
+    <div class="categories">
+      <div class="side-category">
+        <a href="https://www.youtube.com"><span class="material-icons-outlined">home</span><span>Home</span></a>
+      </div>
+      <div class="side-category">
+        <a href="https://www.youtube.com/feed/explore"><span class="material-icons-outlined">explore</span>
+          <span>Explore</span></a>
+      </div>
+      <div class="side-category">
+        <a href="https://www.youtube.com/shorts/bDiGMSzymFE?&ab_channel=SinglesAllowed"><span
+            class="material-icons-outlined">play_circle</span><span>Shorts</span></a>
+      </div>
+      <div class="side-category">
+        <a href="https://www.youtube.com/feed/subscriptions"><span
+            class="material-icons-outlined">subscriptions</span><span>Subscriptions</span></a>
+      </div>
+    </div>
+    <hr />
+
+    <div class="categories">
+      <div class="side-category">
+        <a href="https://www.youtube.com/feed/library"><span class="material-icons-outlined">video_library</span>
+          <span>Library</span></a>
+      </div>
+      <div class="side-category">
+        <a href="https://www.youtube.com/feed/history"><span class="material-icons-outlined">history</span>
+          <span>History</span></a>
+      </div>
+      <div class="side-category your-video-active">
+        <a href="index.html"><span class="material-icons-two-tone">slideshow</span>
+          <span>Your Video</span></a>
+      </div>
+      <div class="side-category">
+        <a href="https://www.youtube.com/playlist?list=WL"><span class="material-icons-outlined">watch_later</span>
+          <span>Watch Later</span></a>
+      </div>
+      <div class="side-category">
+        <a href="https://www.youtube.com/playlist?list=LL"><span class="material-icons-outlined">thumb_up</span>
+          <span>Liked Video</span></a>
+      </div>
+    </div>
+    <hr />
+
+    <div class="categories subscriptions">
+      <div class="bold m-left">SUBSCRIPTIONS</div>
+      <div class="side-category">
+        <a href="https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ"><span
+            class="material-icons-outlined">music_note</span>
+          <span class="bold">Music</span></a>
+      </div>
+      <div class="side-category">
+        <a href="https://www.youtube.com/channel/UCEgdi0XIXXZ-qJOFPf4JSKw"><span
+            class="material-icons-outlined">emoji_events</span>
+          <span class="bold">Sports</span></a>
+      </div>
+      <div class="side-category">
+        <a href="https://www.youtube.com/gaming"><span class="material-icons-outlined">sports_esports</span>
+          <span class="bold">Gaming</span></a>
+      </div>
+      <div class="side-category">
+        <a href="https://www.youtube.com/channel/UClgRkhTL3_hImCAmdLfDE4g"><span
+            class="material-icons-outlined">movie</span>
+          <span class="bold">Movies</span></a>
+      </div>
+    </div>
+    <hr />
+
+    <div class="categories">
+      <div class="bold m-left">MORE FROM YOUTUBE</div>
+      <div class="side-category">
+        <a href="https://www.youtube.com/premium"><span class="material-icons-outlined">smart_display</span>
+          <span>YouTube Premium</span></a>
+      </div>
+      <div class="side-category">
+        <a href="https://www.youtube.com/feed/storefront?bp=ogUCKAI%3D"><span
+            class="material-icons-outlined">theaters</span>
+          <span>Movies</span></a>
+      </div>
+      <div class="side-category">
+        <a href="https://www.youtube.com/gaming"><span class="material-icons-outlined">sports_esports</span>
+          <span>Gaming</span></a>
+      </div>
+      <div class="side-category">
+        <a href="https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig"><span
+            class="material-icons-outlined">sensors</span>
+          <span>Live</span></a>
+      </div>
+      <div class="side-category">
+        <a href="https://www.youtube.com/channel/UCrpQ4p1Ql_hG8rKXIKM1MOQ"><span
+            class="material-icons-outlined">checkroom</span>
+          <span>Fashion & Beauty</span></a>
+      </div>
+      <div class="side-category">
+        <a href="https://www.youtube.com/channel/UCtFRv9O2AHqOZjjynzrv-xg"><span
+            class="material-icons-outlined">lightbulb</span>
+          <span>Learning</span></a>
+      </div>
+      <div class="side-category">
+        <a href="https://www.youtube.com/channel/UCEgdi0XIXXZ-qJOFPf4JSKw"><span
+            class="material-icons-outlined">emoji_events</span>
+          <span>Sports</span></a>
+      </div>
+    </div>
+    <hr />
+
+    <div class="categories">
+      <div class="side-category">
+        <a href="https://www.youtube.com/account"><span class="material-icons-outlined">settings</span>
+          <span>Settings</span></a>
+      </div>
+      <div class="side-category">
+        <a href="https://www.youtube.com/reporthistory"><span class="material-icons-outlined">flag</span>
+          <span>Report History</span></a>
+      </div>
+      <div class="side-category">
+        <a href=""><span class="material-icons-outlined">help_center</span>
+          <span>Help</span></a>
+      </div>
+      <div class="side-category">
+        <a href=""><span class="material-icons-outlined">announcement</span>
+          <span>Send Feedback</span></a>
+      </div>
+    </div>
+    <hr />
+
+    <div class="copyright">
+      <a href="https://about.youtube/">About</a>
+      <a href="https://blog.youtube/">Press</a>
+      <a href="https://www.youtube.com/howyoutubeworks/policies/copyright/">Copyright</a>
+      <a href="https://www.youtube.com/t/contact_us/">Contact us</a>
+      <a href="https://www.youtube.com/creators/">Creators</a>&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="https://www.youtube.com/ads/">Advertise</a>
+      <a href="https://developers.google.com/youtube">Developer</a>
+      <br /><br />
+      <a href="https://www.youtube.com/t/terms">Terms</a>
+      <a href="https://policies.google.com/privacy?hl=en">Privacy</a>
+      <a href="https://www.youtube.com/howyoutubeworks/policies/community-guidelines/">Policy & &nbsp;&nbsp;Safety</a>
+      <a
+        href="https://www.youtube.com/howyoutubeworks/?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen">How
+        YouTube &nbsp;&nbsp;Works</a>
+      <a href="https://www.youtube.com/new">Test New Feature</a>
+      <br /><br />
+      &nbsp;&nbsp;<small>&copy; 2022 RRR"s & Google LLc</small>
+    </div>
+  </nav>
+
+  <main>
+    <div class="slider-names">
+      <a href="https://www.youtube.com">All</a>
+      <a href="index.html" class="active-sonu">Sonu Nigam</a>
+      <a href="#govinda">Govinda</a>
+      <a href="#akshay">Akshay Kumar</a>
+      <a href="#salman">Salman Khan</a>
+      <a href="#shahrukh">shahrukh Khan</a>
+      <a href="#amir">Amir Khan</a>
+      <a href="#saif">Saif ali khan</a>
+      <a href="#abhishek">Abhishek Bachchan</a>
+      <a href="#hritik">Hritik Roshan</a>
+      <a href="#sahid">Sahid Kapoor</a>
+      <a href="#bobby">bobby Deol</a>
+      <a href="#other">Other hits Songs</a>
+      <a href="#single">single</a>
+      <a href="#album">albums</a>
+      <a href="#udit">Udit Narayan</a>
+      <a href="#shanu">Kumar Shanu</a>
+      <a href="#shaan">shaan</a>
+      <a href="#abhijeet">abhijeet</a>
+      <a href="#pritam">pritam</a>
+      <a href="#anu">Anu malik</a>
+      <a href="#a_r">A.R. Rahman</a>
+      <a href="#s_w">Sajid-Wajid</a>
+      <a href="#himesh">Himesh Reshammiya</a>
+      <a href="#s_s">salim-sulaiman</a>
+      <a href="#sel">Shankar-Ehsaan-Loy</a>
+      <a href="#n_s">Nadeem-shravan</a>
+      <a href="#a_m">Anand-Milind</a>
+      <a href="#patriotic">Patriotic</a>
+      <a href="#devotional">Devotional</a>
+    </div>
+
+  
+    <!-- <p class="m-left sonu-nigam-songs" id="salman">
+      Sonu nigam songs for salman khan
+    </p> -->
+
+    <!-- <section class="video-container">
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/hJqVeV0sxZA" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>dewana hai ye mann</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="400" height="250" src="https://www.youtube.com/embed/jH4_GTRUC14" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>maria maria</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HeuVISez-iM" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>dont say alvida</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Bn5SiCc9P4U" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>abhi saans lene ki fursat nahin hai</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LRAqXObBJrY" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>mannata ve - heros</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ypSSrlyi5RQ" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>ishq di galli vich - no entry</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1AoLlOGvSu4" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>just love me - no entry</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/gUfRwyQY4VU" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>meherbaniyan - veer</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uBMa3mGzQJk" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>taali - veer</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/W2mjfazc9eM" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>dupatta tera nau rang da</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/w5iA5LIwF2A" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>just chill - maine pyaar kyun kiya</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xyngwCXoMdI" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>jeene ke hain chaar din - mujhse shaadi karogi</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6guVR237u4c" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>aaja soniye - mujhse shaadi karogi</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KN2v9cGCWN8" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>god tussi great ho</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Cu3QpWEfqgg" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>tenu leke - salaam-e-ishq</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zns53qYaQIo" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>salaam-e-ishq</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/K0PvD8ofK0g" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>tera pallu sarka jaaye</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3uX-fU9EHo0" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>dheere dheere chalna - dulhan hum le jayenge</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dc5bEPnBZEk" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>pyar dilon ka mela hai</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/TBQqW7FuBu0" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>saanson ne - dabbang</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/adLTAl_Tjjw" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>chori kiya jiya - dabbang</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/fevmvfW72_8" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>Chori Chori Chupke Se - Lucky</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FUHB9uO6mgs" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>sun zara- Lucky</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VciZ27xOfwc" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>hum deewane - Lucky</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xab6Hi5XwkQ" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>yeh dil to mila hai</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LJJU0-n44ek" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>bindiya chamke</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5xnBd1PC7vQ" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>aate jaate jo milta</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xab6Hi5XwkQ" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>yeh dil to mila hai</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rWvAwxNqQHM" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>yeh bekhudi deewangi</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SKCje6xKMak" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>chal pyar karegi</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SizVxrMUTjA" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>betab dil hai</h4>
+      </div>
+
+      <div class="video-box">
+        <h4></h4>
+      </div>
+
+      <div class="video-box">
+        <h4></h4>
+      </div>
+
+    </section> -->
+    <!-- <hr /> -->
+
+    <!-- <p class="m-left sonu-nigam-songs" id="akshay">
+      Sonu nigam songs for akshay Kumar
+    </p> -->
+
+    <!-- <section class="video-container">
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/lHJp_3g2MAI" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>sapna jahan</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6613uDk6XYI" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>hans mat pagli - toilet</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2WIm3PLAo-w" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>gori tu latth maar - toilet</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SF_cCyz6QQg" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>humko deewana kar gaye</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8Q2YA5_sOZY" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>bhula dhenge tumko sanam</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zDngjMYHSP8" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>dil ne yeh kaha hai dil se</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/aQWMuqnAvnk" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>ek bewafa hai</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ltiVnd5dJCI" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>mera yaar dildar</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YIV7PvHlPDE" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>wada raha (SAD)</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XnAIfkp6IFs" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>tees maar khan</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oFz4eYhbSQM" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>yeh joker</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CXZBHmR7qTg" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>mujhe pyar do</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BF6ndd6w4bE" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>dholna - heyy babyy</h4>
+      </div>
+
+      <div class="video-box">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6yWRW4OrKCI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4>roop salona tera - jaani dushman</h4>
+      </div>
+
+      <div class="video-box">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kocTMPJghf0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4>jaaneman tu khoob - jaani dushman</h4>
+      </div>
+    </section> -->
+    <!-- <hr /> -->
+
+    <!-- <p class="m-left sonu-nigam-songs" id="govinda">
+      Sonu nigam songs for Govinda
+    </p> -->
+
+    <!-- <section class="video-container">
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/v6tRD0OikKY" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>udd gayi re neend</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OqMXCbU11do" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>jab tum aa jaate ho</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SoEkwKI_Gc0" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>beqarar mein beqarar dil</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8lFsdozRajo" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>laal chunnariya wali</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5EnyGKw67Oc" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>gore tan se sarakta jaye</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xQsPp6Yy1gw" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>i love you bol daal - haseena maan jayegi</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DE3rlRj073g" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>dulha bhi lajawab - haseena maan jayegi</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jiNC6odabYI" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>khat likhna - khuddar</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HkCP4a36si4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4>neeche phoolon ki dukan</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Bm1t6ZAwljQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4>UP wala thumka</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/khcLGIVHA7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4>masti masti</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/suLdBx9f2wQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4>chalo ishq ladaaye</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vKk0fgpmAv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4>jab ladka ho kunwara</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dtP4dJi0M-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4>tujhko hi dulhan</h4>
+      </div>
+
+      <div class="video-box">
+        <h4></h4>
+      </div>
+    </section>-->
+    <!-- <hr />  -->
+
+    <!-- <p class="m-left sonu-nigam-songs" id="abhishek">
+      Sonu nigam songs for abhishek bachchan
+    </p> -->
+
+    <!-- <section class="video-container">
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0MIr2VrA62Y" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>chup chup ke</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Lc-_9kMH48s" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>dil mein jo baat - RUN</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_RBnClD9Pw8" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>chain ho chain ho - RUN</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/j20mhHdSgMs" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>chori chori chaha tumhe</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ulHWx22jWs4" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>kachchi kaliyaan</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/WSL7PZsEHkA" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>aisa lagta hai - refugee</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OUNgk6yM250" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>koi bheega hai rang se</h4>
+      </div>
+
+      <div class="video-box">
+        <h4></h4>
+      </div>
+    </section> -->
+    <!-- <hr /> -->
+
+    <!-- <p class="m-left sonu-nigam-songs" id="amir">
+      Sonu nigam songs for amir khan
+    </p> -->
+
+    <!-- <section class="video-container">
+ 
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qtz5mpvgAM0" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>mere haath mein</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/v4h5iPlxj0c" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>dekho na</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ztPa6vkM-yY" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>guzarish - ghajini</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7zS7MNtRSAY" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>main ki karan - laal singh chaddha</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ikZp7S19-eo" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>tanhaaye</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jAmzBv3oq8M" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>love is a waste of time - PK</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/G6SutyLlzws" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>bhagwan hai kahan re tu - PK</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sAHbwzkrlmg" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>jaane nahin denge tujhe - 3idiots</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/V056WNg3ECo" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>zoobi doobi - 3idiots</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7PzwOiW8-n0" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>all is well - 3idiots</h4>
+      </div>
+
+      <div class="video-box">
+        <h4></h4>
+      </div>
+    </section> -->
+    <!-- <hr /> -->
+
+    <!-- <p class="m-left sonu-nigam-songs" id="shahrukh">
+      Sonu nigam songs for shahrukh khan
+    </p> -->
+
+    <!-- <section class="video-container">
+    
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/T4wr-y_bqB8" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>yeh dil dewaana</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jDErhADhhmg" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>phir milenge chalte chalte</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/L0zKs8i7Nc8" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>suraj hua maddham - K3G</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mXkbWKr5ovU" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>tumse milke - main hoon na</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0L0QinW_A70" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>main hoon na</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DAYszemgPxc" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>main agar kahoon - om shanti om</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/F7jjpnte_Kg" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>ishq kameena</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HPsxxBhv9kc" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>do pal - veer zaara</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/g0eO74UmRBs" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>kal ho na ho</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/O8fIwHfZz2E" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>kabhi alvida naa kehna</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/O8fIwHfZz2E" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>tumhi dhekho naa - kabhi alvida naa kehna</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OClXVLsI4jM" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>satrangi re</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/v3bW2VEmli8" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>khamoshiyan gungunane lagi - lata mangeshkar</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vcbWTEjUuyk" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>banke tera jogi</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xKx_80QM2LU" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>sab kuchh bhula diya</h4>
+      </div>
+    </section> -->
+    <!-- <hr /> -->
+
+    <!-- <p class="m-left sonu-nigam-songs" id="hritik">
+      Sonu nigam songs for Hritik roshan
+    </p> -->
+
+    <!-- <section class="video-container">
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oWKgpB2zpgw" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>abhi mujh mein kahin - agneepath</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/EdRYy38C_gE" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>jaane dil mein - lata mangeshkar - mujhse dosti karoge</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/usLLKvmCLXg" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>oh my darling - mujhse dosti karoge</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/avuWWztS-6k" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>deewaana hai dheko - K3G</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zumMQrI_tMg" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>you are my soniya - K3G</h4>
+      </div>
+
+      <div class="video-box">
+        <h4></h4>
+      </div>
+    </section> -->
+    <!-- <hr /> -->
+
+    <!-- <p class="m-left sonu-nigam-songs" id="saif">
+      Sonu nigam songs for saif ali khan
+    </p> -->
+
+    <!-- <section class="video-container">
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/z_B0PF8Ug00" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>shukran allah</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZAkr0KFFLLs" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>piyu bole - parineeta</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/deTVgOf2cWs" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>kasto mazza - parineeta</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/eTnrzEuVz-0" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>soona man ka aangan- parineeta</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/wW_ZjNUwe0M" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>tu jahaan - salaam namaste</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/k7c2YGsW2vs" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>chak de - hum tum</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/94XJ_F4Z71g" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>hum tum</h4>
+      </div>
+
+      <div class="video-box">
+        <h4></h4>
+      </div>
+
+      <div class="video-box">
+        <h4></h4>
+      </div>
+    </section> -->
+    <!-- <hr /> -->
+
+    <!-- <p class="m-left sonu-nigam-songs" id="bobby">
+      Sonu nigam songs for bobby deol
+    </p> -->
+
+    <!-- <section class="video-container">
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/E9V2TZvY9g8" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>tera rang balle balle</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/buFBVmEjL9w" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>na milon kahin pyar</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CmQ-SCK0BwU" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>chor chor machaaye shor</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/s3n1Op4ipGM" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>aur tum aayae - dosti friends forever</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/j4A8LInaqho" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>ishq mein ek pal - barsaat</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/lWhBOjEDrnI" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>pyaar aaya aur zyada - barsaat</h4>
+      </div>
+    </section> -->
+    <!-- <hr /> -->
+
+    <!-- <p class="m-left sonu-nigam-songs" id="sahid">
+      Sonu nigam songs for sahid Kapoor
+    </p> -->
+
+    <!-- <section class="video-container">
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/X4TyG9grBSw" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>aisa deewana</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/AMU_v2badYY" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>gustakh dil tere liye</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FWO9pbfdvD0" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>dil vich lagyave - chup chup ke</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3Mai7dsZXEQ" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>mausam hai bada qatil - chup chup ke</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0gtDICWPTyA" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>nagada nagada</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DwjRllaPDKI" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>tum chain ho karar ho</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/u58dPU5ym9k" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>soniye ve</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ztcg-BccCnQ" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>ishq hi hai rab</h4>
+      </div>
+    </section> -->
+    <!-- <hr /> -->
+
+    <!-- <p class="m-left sonu-nigam-songs" id="a_r">
+      sonu nigam songs for A.R. Rahman
+    </p> -->
+
+    <!-- <section class="video-container">
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ps-J0qGqg6Y" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>chiggy wiggy</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zSCevtX7ud0" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>ishq bina kya</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/eMA6GHTQ4WA" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>sathiyaa</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/U3b_Fv1FxnE" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>shano shano</h4>
+      </div>
+    </section> -->
+    <!-- <hr /> -->
+
+    <!-- <p class="m-left sonu-nigam-songs" id="s_w">
+      sonu nigam songs for Sajid-Wajid
+    </p> -->
+
+    <!-- <section class="video-container">
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/x6yToEZz9NU" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>kuch kaha aapne</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_7dxX6mF0Iw" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>mannat - daawat-e-ishq</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jn1j76FyNDY" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>har ek friend kamina hota hai</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xoR_gzUEG0c" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>tum pass ho</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/NoLSZYxt0pg" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>fariyad - GARV</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Xss6ZlUYoGA" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>tujhe aksa beach ghuma du - god tussi great ho</h4>
+      </div>
+
+      <div class="video-box">
+        <h4></h4>
+      </div>
+    </section> -->
+    <!-- <hr /> -->
+
+    <!-- <p class="m-left sonu-nigam-songs" id="himesh">
+      Sonu nigam songs for Himesh Reshammiya
+    </p> -->
+
+    <!-- <section class="video-container">
+      
+      <div class="video-box">
+        <iframe width="400" height="250" src="https://www.youtube.com/embed/VYTOr0Dc8Tc" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>bandh mere pairo mein</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/g848L-hn4ns" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>tere dil ka rishta - koi aap sa</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/In7tXWEsgfo" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>rang dalo feko gulal (holi) - banaras</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YixKjXWLKqs" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>tum saanso mein - humko deewana kar gaye</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BeegUxwz2Ok" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>tumhe jitna bhulate hain</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/R1Z4PXNxUhk" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>laga laga re - maine pyaar kyun kiya</h4>
+      </div>
+
+      <div class="video-box">
+        <h4></h4>
+      </div>
+    </section> -->
+    <!-- <hr /> -->
+
+    <!-- <p class="m-left sonu-nigam-songs" id="pritam">
+      Sonu nigam songs for pritam
+    </p> -->
+
+    <!-- <section class="video-container">
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/d24qXllsaAE" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>phir mujhe dil</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/nChQqMR-zko" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>my name is ali - dhoom 2</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/RFTaiNh9xqI" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>halka halka yeh nasha</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/b5NYJCTZmvU" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>aao na - sunny Deol</h4>
+      </div>
+    </section> -->
+    <!-- <hr /> -->
+
+    <!-- <p class="m-left sonu-nigam-songs" id="s_s">
+      sonu nigam songs for salim-sulaiman
+    </p> -->
+
+    <!-- <section class="video-container">
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/iQXePTLyCUk" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>tauba tauba - kaal - john abraham</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uBgJ0J2vtRk" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>rab rakha</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CgQn3gsrIRc" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>ishq hua</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oFUq2YNpfjg" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>i am in love</h4>
+      </div>
+    </section> -->
+    <!-- <hr /> -->
+
+    <!-- <p class="m-left sonu-nigam-songs" id="anu">
+      sonu nigam songs for anu malik
+    </p> -->
+
+    <!-- <section class="video-container">
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jor_SaUzuVI" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>hame jab se mohabbat</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vfuAjw23KDE" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>ye kya ho raha hai - ajay devgan</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/RPxE1SeNF7U" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>peepal ke patwa - sooryavansham</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1_nbQAXF4hk" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>dhalne lagi hai raat</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GDhST7eL3WQ" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>o sapno ke saudagar - ajay devgan</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/NS2mb0i_bPM" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>munna mobile - sanjay dutt</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oNSHqcfHjcM" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>panga na le mere naal - sanjay dutt</h4>
+      </div>
+    </section> -->
+    <!-- <hr /> -->
+
+    <!-- <p class="m-left sonu-nigam-songs" id="sel">
+      sonu nigam songs for Shankar-Ehsaan-Loy
+    </p> -->
+
+    <!-- <section class="video-container">
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qb4g9tAMvg0" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>kal nau baje - short kut</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/S8JListLqpI" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>meri zindgai mein aaye</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Rn6HPDltaWk" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>kill dill - govinda & ranveer singh</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vCvzc2LSlWw" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>meri duniya tu hi re</h4>
+      </div>
+    </section> -->
+    <!-- <hr /> -->
+
+    <!-- <p class="m-left sonu-nigam-songs" id="n_s">
+      sonu nigam songs for Nadeem-shravan
+    </p> -->
+
+    <!-- <section class="video-container">
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/TEa0_01ADFU" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>ishq ki baarish - unreleased</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8gmv4UuUkeU" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>happy birthday song- unreleased</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sWSs7w7MXYc" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>O Sahiba O Sahiba - Dil Hai Tumhaara</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0ppyQ4Cw5AY" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>humein aapse milke</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/evbl_IMSAkc" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>pyar tumko hi kiya hai</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rCEqDKODoU4" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>allah allah tarif teri</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FNRCaXApaZ0" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>dil ne yeh kaha hai (udit & shanu)</h4>
+      </div>
+    </section> -->
+    <!-- <hr /> -->
+
+    <!-- <p class="m-left sonu-nigam-songs" id="a_m">
+      sonu nigam songs for Anand-Milind
+    </p> -->
+
+    <!-- <section class="video-container">
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Xak4WaqoZQE" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>taalon mein nainital</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XtzIIME7ueM" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>peg patiala ka</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SR4jsWiq_p0" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>meri neend jaane lagi - sanjay dutt</h4>
+      </div>
+
+      <div class="video-box">
+        <h4></h4>
+      </div>
+    </section> -->
+    <!-- <hr /> -->
+
+    <!-- <p class="m-left sonu-nigam-songs" id="other">
+      Sonu nigam Other hits songs
+    </p> -->
+
+    <!-- <section class="video-container">
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/owJQROW35Ow" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>soniyo - raju singh - raaz</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MdMACkSw9t0" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>oh my love - jeet ganguli - raaz</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BZfo4Wve1f8" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>woh ho tum</h4>
+      </div>
+
+      
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ov1pxTBTMRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4>ishq sanam ishq khuda - jaani dushman</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/k2bNbbvruak" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>shirt da button - meet bros</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/T53pDKTLvcY" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>pal pal har pal</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/nk5FtEVLrxs" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>tere bin - wazir</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zceFILcCC7c" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>shart - milan talkies</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YHZk65z677M" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>hadh se jayada sanam - sanjay dutt</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/M3rEuFpXCds" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>choti choti raatein</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/lk4lraE0wxU" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>main badhiya tu bhi badhiya - SANJU</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vObyE_OR8Aw" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>meri duniya - sanjay dutt</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_qWL0_0oXCM" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>khoya khoya tha - vishal-shekhar</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VTkrmUAhNeU" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>o sathi mere - tanu weds manu return</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/D9N7qAyLofE" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>maana ke hum yaar nahin - parineeti</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9b4ypehIjBk" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>dil gaya dil gaya</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9nvMqSn7ROY" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>door waadiyon se a raha hai</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/wEryR2DLRx4" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>jo jaam se pita hu</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oiiLsXHxkSQ" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>Mili Hain Kisise Nazar Dhire</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2InjjoERVSM" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>sajan ke ghar</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6SfH24HqLIc" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>mirza ve - jeet ganguli</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PfcYY1mwFbI" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>dard - sarbjit - jeet ganguli</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/moLwu_G6NvE" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>agar dil kahe</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KIzCpTA2p5Y" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>apnaa mujhe tu lagaa - 1920 evil returns</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZGBYpxXAxNA" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>do pyar karne wale - jungle</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/f_d3XDTk7K4" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>yaar mangiyasi - amitabh bachchan</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/K8rNTJcdqLo" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>sona sona - amitabh bachchan</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/IMoRJQi1eKQ" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>assi teri gal karni - sunny Deol</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/h0ejXv2cmos" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>rama rama - asha bhosle</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Kat9RvEB8A4" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>samne aati ho tum - dus - sanjay dutt</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/D5DVGVA9Mls" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>doob jaana re</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/F0CipjFje54" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>Pyar Se Pyare Tum Ho</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/WxFg7s9h1xw" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>may se meena se</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-Lzp4d79Vec" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>tu hai - ranbir kapoor</h4>
+      </div>
+    </section> -->
+    <!-- <hr /> -->
+
+    <!-- <p class="m-left sonu-nigam-songs" id="single">
+      Sonu nigam single hits songs
+    </p> -->
+
+    <!-- <section class="video-container">
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/IKHfO_GPB3w" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>totta - meet bros</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/i4YUugR043s" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>aa bhi jaa tu kahin se - jeet ganguli</h4>
+      </div>
+
+      <div class="video-box">
+        <h4></h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/hddqDxkKT5E" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>baar baa din yeh aaye happy birthday</h4>
+      </div>
+    </section> -->
+    <!-- <hr /> -->
+
+    <!-- <p class="m-left sonu-nigam-songs" id="album">
+      Sonu nigam albums songs
+    </p> -->
+
+    <!-- <section class="video-container" id="deewana_album">
+      <div class="video-box">
+        <h4>deewana</h4>
+      </div>
+    </section> -->
+    <!-- <hr> -->
+
+    <!-- <section class="video-container" id="kash_aap_hamare_hote_album">
+      <div class="video-box">
+        <h4>- kash aap hamare hote</h4>
+      </div>
+    </section> -->
+    <!-- <hr> -->
+
+    <!-- <section class="video-container" id="mausam_album">
+      <div class="video-box">
+        <h4>- mausam</h4>
+      </div>
+    </section> -->
+    <!-- <hr> -->
+
+    <!-- <section class="video-container" id="yaad_album">
+      <div class="video-box">
+        <h4>- yaad</h4>
+      </div>
+    </section> -->
+    <!-- <hr> -->
+
+    <!-- <section class="video-container" id="love_in_nepal_album">
+      <div class="video-box">
+        <h4>- love in nepal</h4>
+      </div>
+    </section> -->
+    <!-- <hr> -->
+
+    <!-- <section class="video-container" id="_album">
+      <div class="video-box">
+        <h4></h4>
+      </div>
+    </section> -->
+    <!-- <hr /> -->
+
+    <!-- <p class="m-left sonu-nigam-songs" id="udit">
+      Sonu nigam & udit narayan duet songs
+    </p> -->
+
+    <!-- <section class="video-container">
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/IBvg3WeqP1U" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>bole chudiya - K3G</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1BWdglekty0" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>maahi ve - kal ho na ho</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/n7MjuaR7ZlI" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>mujhse shaadi karogi</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Xi6BjmipH58" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>ram jaane</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Do7PzQ6MTPU" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>jaage jaage - mere yaar ki shaadi</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/guHHhEUYAQ4" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>mere yaar ki shaadi hai</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kjpYA78WvEs" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>yeh dosti tere dum se - dosti friends forever</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5GVmfjP_qMg" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>ni sonaya ni sonaya</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/q4R2xRnN89A" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>the medley songs - mujhse dosti karoge</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/e0DtF8wJDR4" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>laal chunnariya - god tussi great ho</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/siw7-MTgE4s" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>hamein tumse hua hai pyar</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BukHiHrbFpA" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>rabb kre tujhko bhi pyar - mujhse shaadi karogi</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1jjDs69WWUQ" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>lal duppata ud gya - mujhse shaadi karogi</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jSkBtDg-8lg" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>sajan tumse pyar - maine pyaar kyun kiya</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vnCIjfkPooo" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>kyuki itna pyar tumse</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MbIRbYjLdqM" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>Hum Tumko Nigahon Mein - GARV</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/526hvVlBP1U" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>tumse milna - tere naam</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/RX3Xenjc-GE" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>odhani odh ke nachu- tere naam</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OMoU0Pfibc4" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>tere naam humne kiya Hai</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/iCZfjggJg3M" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>kyo kisi ko - tere naam</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jKzCPLu98O4" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>ab tumahare hawale watan sathiyo</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/k4V9uiRKpEw" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>ab tumahare hawale watan sathiyo-1</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Wrq9SpUGoRU" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>ab tumahare hawale watan sathiyo-2</h4>
+      </div>
+    </section> -->
+    <!-- <hr /> -->
+
+    <!-- <p class="m-left sonu-nigam-songs" id="shanu">
+      Sonu nigam & kumar shanu duet songs
+    </p> -->
+
+    <!-- <section class="video-container">
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qyDIymTJXKw" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>tera mera dostana - jodi No.1</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tC7qszDasUI" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>O Soniye Dil Jaaniye</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/B6bi42d830A" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>jodi No.1</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/e_16XNaNR2w" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>aaj kal ki nahin</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ta2EmAGi08s" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>mujhse shaadi karogi - dulhan hum le jayenge</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/07KoprnKr_Y" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>teri chunnariya</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/WkfcHsPKwds" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>meri mehbooba-pardesh</h4>
+      </div>
+    </section> -->
+    <!-- <hr /> -->
+
+    <!-- <p class="m-left sonu-nigam-songs" id="abhijeet">
+      Sonu nigam & Abhijeet bhattacharya duet songs
+    </p> -->
+
+    <!-- <section class="video-container">
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/cjpWGKQtRoc" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>hum nahin tere dushmano main</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/E1sBogmTH0Q" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>aaj mere yaar di shaadi - dosti friends forever</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8uKoUdrFJQY" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>teri bindiya</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7SVzdnkAXV4" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>joru ka gulaam</h4>
+      </div>
+    </section> -->
+    <!-- <hr /> -->
+
+    <!-- <p class="m-left sonu-nigam-songs" id="shaan">
+      Sonu nigam songs for shaan
+    </p> -->
+
+    <!-- <section class="video-container">
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/f5xDXrCAOHo" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>chamm se wo aa jaye - dus</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Gjw6aWrVpxo" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>nahi mila mujhe pyaar to kya - CRED</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zWEOx7TSM6I" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>chand sifarish</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vxVsDSB5UWw" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>hey shona</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6WLugDJYXmM" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>ladki kyon</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ewvddSUEONQ" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>behti hawa sa tha woh - 3idots</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/NJ1NIIdHhXs" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>bum bum bole</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VzLG6OqOcn8" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>deewangi deewangi - om shanti om</h4>
+      </div>
+    </section> -->
+    <!-- <hr /> -->
+
+    <!-- <p class="m-left sonu-nigam-songs" id="patriotic">
+      Sonu nigam patriotic songs
+    </p> -->
+
+    <!-- <section class="video-container">
+      
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9sthJUHkzgI" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>sandese aate hai - border</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/esV069YrVh4" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>rang de basanti chola</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2liZ16dgBgg" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>zindagi maut - sarfarosh</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MxWz46Fm_J8" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>sarfaroshi ki tamanna</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LLw0-5lmxR4" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>sarfaroshi ki tamanna (sad)</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/s_-tthrE0Hg" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>kandhon se milte hain kandhe</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8tDfkeUsX7c" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>bande mein tha dum vande mataram - sanjay dutt</h4>
+      </div>
+    </section> -->
+    <!-- <hr /> -->
+
+    <!-- <p class="m-left sonu-nigam-songs" id="devotional">
+      Sonu nigam devotional (bhakti) songs
+    </p> -->
+
+    <!-- <section class="video-container">
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_0SNeEgUdk4" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>jai mata di - aarzoo</h4>
+      </div>
+
+      <div class="video-box">
+        <h4></h4>
+      </div>
+
+      <div class="video-box">
+        <h4></h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PlgRlLPxa2M" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>shiv ka naam lo</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4-87-bhiSXk" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>shivji satya hai</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/e2L7Rh4Acu4" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>radha khelain hori - sonu nigam & hema malini</h4>
+      </div>
+
+      <div class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7xWnnx5WPdE" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <h4>mere natwar krishna kanhaiya</h4>
+      </div>
+
+      <div class="video-box">
+        <h4></h4>
+      </div>
+    </section> -->
+
+  </main>
+
+  <footer class="center">
+    <b>I Maked this Youtube Clone Website Only for My Personel Used To Listen
+      my Favourite Songs at Same Page Instead of searching songs on
+      Youtube.</b>
+    <br /><br />
+    Design and Developed by :-- <b> Ritu Kumar ( "Rupak Rajput" )</b>
+    <div class="social-media">
+      <a href="https://www.instagram.com/rupakrajput161/" target="_blank" class="fa fa-instagram"></a>
+      <a href="https://github.com/Rupakrajput19" target="_blank" class="fa fa-github"></a>
+      <a href="https://mobile.twitter.com/RupakRajput10" target="_blank" class="fa fa-twitter"></a>
+      <a href="https://www.linkedin.com/in/ritu-kumar-a0a5aa1b2" target="_blank" class="fa fa-linkedin"></a>
+      <a href="https://m.facebook.com/100016564753676/" target="_blank" class="fa fa-facebook"></a>
+      <a href="https://youtube.com/channel/UCvmxiRqoHxKCimgpvIxTaFw" target="_blank" class="fa fa-youtube"></a>
+    </div>
+    &copy; 2022. All rights reserved at Youtube and RRR"s.
+  </footer>
+</body>
+
+</html>

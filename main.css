@@ -1,0 +1,121 @@
+/* mainbody css start here */
+
+main {
+  grid-area: main;
+  background-color: whitesmoke;
+  /* width: auto; */
+  /* height: 3000px;
+  overflow-y: scroll; */
+}
+/* main::-webkit-scrollbar {
+  width: 10px;
+  background-color: whitesmoke;
+}
+main::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+main::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: grey;
+} */
+
+.slider-names {
+  width: 1500px;
+  height: auto;
+  padding: 0;
+  margin: 5px 0;
+  position: fixed;
+  top: 65px;
+  background-color: white;
+  box-shadow: 0px 0px 2px black;
+  box-sizing: border-box;
+  /* display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll; */
+}
+
+/* .slider-names::-webkit-scrollbar {
+    height:8px;
+    background-color: whitesmoke;
+  }
+  .slider-names::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: whitesmoke;
+  }
+  .slider-names::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #aaa;
+  } */
+
+.slider-names a {
+  cursor: pointer;
+  margin: 10px 8px;
+  padding: 6px 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  background-color: rgb(243, 242, 242);
+  text-transform: capitalize;
+  float: left;
+}
+.slider-names a:hover {
+  background-color: #ddd;
+}
+
+.slider-names .active-sonu,
+.slider-names .active-sonu:hover {
+  color: white;
+  background-color: black;
+  /* background-color: rgb(100, 100, 100); */
+}
+
+/* .sonu-nigam-songs {
+  margin: 25px 0 0px 40px;
+  font-size: large;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: capitalize;
+  color: black;
+} */
+
+/* main .sonu-nigam-songs:first-child{
+ margin-top: 100px;
+} */
+
+.video-container {
+  margin: 65px 0 10px 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.video-container .video-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  /* outline: 2px solid blue; */
+  box-shadow: 0px 0px 5px black, -0px -0px 5px black;
+}
+
+.video-container .video-box h4 {
+  padding: 10px 0 5px 15px;
+  margin-top: 5px;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+  text-transform: capitalize;
+  border-radius: 2px;
+  /* width: auto; */
+}
+
+.video-box iframe {
+  padding: 0;
+  height: 250px;
+  width: 395px;
+  border-bottom: 2px solid #aaa;
+  /* box-shadow: 2px 2px 8px black, -2px -2px 5px black; */
+}
+/* mainbody css end here */

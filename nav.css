@@ -1,0 +1,94 @@
+/* navigation css start here */
+
+nav {
+    grid-area: nav;
+    height: 660px;
+    width: 250px;
+    background-color: white;
+    position: fixed;
+    top: 72px;
+    left: 0;
+    overflow-y: scroll;
+  }
+  
+  nav::-webkit-scrollbar {
+    width: 10px;
+    background-color: white;
+  }
+  
+  nav::-webkit-scrollbar-track {
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+  nav::-webkit-scrollbar-thumb {
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3); */
+    border-radius: 10px;
+    background-color: #aaa;
+  }
+  
+  .categories .material-icons-outlined,
+  .categories .material-icons-two-tone {
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-right: var(--m-left);
+  }
+  
+  .categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin: 10px 0; */
+    overflow: hidden;
+  }
+  
+  .side-category a {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 10px 25px;
+    overflow: hidden;
+  }
+  
+  .side-category a:hover {
+    background-color: rgb(245, 245, 245);
+  }
+  
+  .your-video-active a,
+  .your-video-active a:hover {
+    background-color: rgb(230, 230, 230);
+  }
+  
+  .subscriptions .material-icons-outlined {
+    padding: 1px;
+    font-size: 22px;
+    /* filter: invert(100%); */
+    border-radius: 15px;
+    color: rgb(224, 224, 224);
+    background-color: rgb(53, 50, 50);
+  }
+  
+  .copyright {
+    margin: 20px;
+    font-size: 14px;
+    /* font-weight: bold; */
+  }
+  
+  .copyright a {
+    text-decoration: none;
+    margin: 10px 5px;
+    padding: 2px;
+    color: rgb(107, 106, 106);
+  }
+  
+  .copyright a:hover {
+    /* text-decoration: underline; */
+    /* color: rgb(31, 31, 31); */
+    color: black;
+  }
+  
+  /* navigation css end here */
