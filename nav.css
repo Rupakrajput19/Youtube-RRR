@@ -92,3 +92,9 @@ nav {
   }
   
   /* navigation css end here */
+
+  @media screen and (max-width:400px) {
+  nav{
+    height: 900px;
+  }
+  }
