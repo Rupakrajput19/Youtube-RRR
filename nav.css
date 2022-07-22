@@ -95,6 +95,6 @@ nav {
 
   @media screen and (max-width:400px) {
   nav{
-    height: auto;
+    height: 100vh;
   }
   }
